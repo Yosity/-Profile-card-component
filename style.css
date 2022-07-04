@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-position-x: -38vh , 90vh;
+    background-position-y: -59vh , 50vh;
+}
+h1 {
+    font-size: 20px;
+}
+
+.frame {
+    background-color: white;
+    min-width: 20rem ;
+
+    border-radius: 1rem;
+}
+.cover {
+    background-image: url("images/bg-pattern-card.svg");
+    height: 10rem;
+}
